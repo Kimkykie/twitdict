@@ -1,0 +1,23 @@
+.header-row{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-row-logo{
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  font-family: cursive;
+  font-size: 1.3rem;
+  color: hsl(196, 89%, 45%);
+}
+
+.logo-part{
+  color: hsl(337, 82%, 50%);
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .ant-menu-item{
+    font-size: 12px;
+    padding: 0 0.5em;
+  }
+}
